@@ -14,3 +14,16 @@ echo "List of folders in order of size from smallest to biggest is:"
 echo "$list"
 }
 Folder_size_check
+
+
+logfile_search() {
+local directory=$1
+
+    echo "What phrase do you wish to search?"
+    read phrase
+    find "$directory" -type f -name "*.log" | while IFS= read -r file; do
+        if grep -q "$phrase" "$file"; then
+            echo "$file"
+        fi
+    done
+}
