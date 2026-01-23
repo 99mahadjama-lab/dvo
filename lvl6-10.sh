@@ -27,3 +27,5 @@ local directory=$1
         fi
     done
 }
+
+logfile_search
