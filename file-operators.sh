@@ -7,7 +7,7 @@ calculate_sha256sum() {
 }
 
 compare_checksums() {
-    
+
     local file1="$1"
     local file2="$2"
 

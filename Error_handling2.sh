@@ -7,4 +7,3 @@ Y=20
 Z=$((X + Y + A))
 
 echo "the value of Z is: $Z"
-
