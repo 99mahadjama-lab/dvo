@@ -6,5 +6,3 @@ else
     mkdir /Users/mahadjama/Documents/dvo/backup
     cp /Users/mahadjama/Documents/dvo/arena/*.txt /Users/mahadjama/Documents/dvo/backup
 fi
-
-

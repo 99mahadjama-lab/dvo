@@ -16,4 +16,3 @@ echo "List of folders in order of size from smallest to biggest is:"
 echo "$list"
 
 }
-

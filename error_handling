@@ -4,7 +4,7 @@
 
 divide() {
 local num1 num2
-    
+
     echo "First Number is:"
     read num1
     echo "Second Number is:"
